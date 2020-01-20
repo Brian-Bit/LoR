@@ -1,0 +1,46 @@
+
+header{
+    margin-top: 5em;
+}
+li
+{
+    justify-content: center;
+    padding-left: 5em;
+}
+
+.card:hover
+{
+    width: 250px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 22px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+p
+{
+    font-size: 20px;
+}
+
+div > .card-columns
+  {
+    column-count: 4;
+  }
+
+
+@media (max-width: 1000px) {
+.container 
+  {
+    text-align: justify;
+  }
+div > .card-columns
+  {
+    column-count: 2;
+  }
+
+}
+
+@media (max-width: 600px) {
+  div > .card-columns
+    {
+      column-count: 1;
+    }
+  
+  }
